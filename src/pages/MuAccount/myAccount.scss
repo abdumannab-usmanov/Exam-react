@@ -1,0 +1,39 @@
+
+.myaccount{
+    background-color: #fff;
+}
+.myaccount__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.myaccount__item {
+    width: 297px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.myaccount__item  + .myaccount__item {
+    margin-left: 4px;
+}
+
+.myaccount__link {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #152540;
+    text-decoration: none;
+    padding: 30px 120px  30px 67px;
+    background-color: #F3F6F9;
+
+    
+}
+
+// togirla
+// .active{
+//     color:#152540;
+//     background: #FFFFFF;
+// }

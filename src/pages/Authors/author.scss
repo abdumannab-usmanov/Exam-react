@@ -1,0 +1,44 @@
+.author__inner {
+    width: 787px;
+    margin: 0 auto;
+    margin-top: 147px;
+
+}
+
+.author__title {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 34px;
+    color: #C9AC8C;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+
+.author__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.author__item {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.author__item+.author__item {
+    margin-left: 59px;
+}
+
+.author__link {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.activeAuthor {
+    color: #C9AC8C;
+    text-decoration: none;
+}

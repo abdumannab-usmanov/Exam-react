@@ -1,0 +1,129 @@
+.singlePage {}
+
+.single__wrapper {}
+
+
+.single__inner {
+    display: flex;
+
+}
+
+.single__left {
+    width: 40%;
+    text-align: center;
+    padding-bottom: 48px;
+    margin-right: 87px;
+}
+
+.single__img {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.single__sanasi {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.single__sanasi+.single__sanasi {
+    margin-left: 50px;
+}
+
+.single__birth {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 144.4%;
+    color: #C9AC8C;
+    margin: 0;
+}
+
+.single-right__inner {
+    width: 671px;
+    margin-top: 52px;
+
+}
+
+.single-right {
+    width: 60%;
+}
+
+.single__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #C9AC8C;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.single__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.single-info__wrapper {
+    width: 362px;
+    margin-bottom: 55px;
+}
+
+.single__ijod {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #C9AC8C;
+    margin-top: 0;
+    margin-bottom: 4px;
+
+    &::before {
+        display: inline-block;
+        width: 14px;
+        height: 20px;
+        background-image: url("../../assets/img/note.png");
+        background-repeat: no-repeat;
+        background-image: 14px 20px;
+        margin-right: 10px;
+        content: "";
+    }
+}
+
+.single__info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 154.9%;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.moree__list {
+    width: 800px;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.moree__list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.moree__list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.moree__list::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 5px;
+}
+
+.moree__list::-webkit-scrollbar-thumb:hover {
+    background: grey, ;
+}

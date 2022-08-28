@@ -1,0 +1,127 @@
+.addauthor__frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background-color: #F3F3F3;
+    margin-top: auto;
+    margin-bottom: auto
+}
+
+.addauthor__img {
+    width: 350px;
+    height: 266px;
+    margin-bottom: 23px;
+}
+
+.addauthor__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.addauthor__form {
+    display: flex;
+    align-items: center;
+}
+
+.addauthor__wrapper {
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 108px;
+}
+
+.addauthor__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 51px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.addauthor__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+
+.addauthor__input {
+    display: block;
+    width: 280px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AAAAAA;
+    background-color: #FFFFFF;
+    border: 1px solid #B4B4BB;
+    border-radius: 10px;
+    padding: 15px 20px 11px 29px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.addauthor__select {
+    display: block;
+    width: 330px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AAAAAA;
+    background-color: #FFFFFF;
+    border: 1px solid #B4B4BB;
+    border-radius: 10px;
+    padding: 15px 20px 11px 29px;
+    margin-bottom: 18px;
+}
+
+.addauthor__bio {
+    padding: 15px 10px 11px 10px;
+    border: 1px solid #B4B4BB;
+    border-radius: 10px;
+}
+
+
+.addauthor__btn {
+    width: 330px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #152540;
+    border-radius: 99px;
+    margin-top: 34px;
+    padding: 5px 0;
+}
+
+.log__link {
+    margin-left: 5px;
+}
+
+.addauthor__label {
+    width: 328px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #152540;
+    border-radius: 99px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.addAuthor__img {
+    display: none;
+}

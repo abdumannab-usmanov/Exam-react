@@ -1,0 +1,42 @@
+.setting__inner{
+    position: relative;
+}
+
+.setting__btn{
+
+    background: transparent;
+    border: none;
+
+}
+
+.seting__select {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 2px solid grey;
+    position: absolute;
+    top: 27px;
+    left: 4px;
+}
+
+.seting__li{
+    width: 100px;
+}
+
+.seting__li + .seting__li{
+    margin-top: 10px;
+    padding: 5px;
+}
+.seting__link{
+    text-decoration: none;
+    color: black;
+}
+
+.open{
+    display: block;
+}
+
+.close{
+    display: none;
+}
